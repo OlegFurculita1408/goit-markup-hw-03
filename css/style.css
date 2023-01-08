@@ -1,0 +1,189 @@
+:root {
+    --primary-brand-color: #4D5AE5;
+    --overlays-shadow-headi:#2E2F42; /* font,title */
+    --accent-text-color: #434455;
+    --helper-text-subtle: #8E8F99;
+    --primary-white-color: #FFFFFF;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-white-color);
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.visualy-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* .header {
+}
+.navigation {
+} */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--overlays-shadow-headi);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+}
+.logo-web {
+    color: var(--primary-brand-color);
+}
+/* .navigation-item {  
+} */
+.navigation-item 
+.link {
+    color:  var(--overlays-shadow-headi);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.navigation-item .link:hover,
+.navigation-item .link:focus {
+    color: var(--primary-brand-color);
+}
+.navigation-item .link:active {
+    color: var(--primary-brand-color);
+}
+.address {
+    font-style: normal;
+}
+.address-item
+.link {
+    color: var(--accent-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address-item .link:hover,
+.address-item .link:focus {
+    color: var(--primary-brand-color);
+}
+.hero {
+    background:  var(--overlays-shadow-headi)
+}
+.hero-title {
+    color: var(--primary-white-color);
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.hero-btn {
+    font-family: inherit;
+    color: var(--primary-white-color);
+    background-color: var(--primary-brand-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:active {
+    background-color: #404BBF;
+}
+.qualities-title {
+    color: var(--overlays-shadow-headi);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.qualities-description {
+    color: var(--accent-text-color);
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.work-title {
+    color: var(--overlays-shadow-headi);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.work-title-items {
+    color: var(--overlays-shadow-headi);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-title {
+    color: var(--overlays-shadow-headi);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.team-titles {
+    color: var(--overlays-shadow-headi);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team-description {
+    color: var(--accent-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.footers {
+    background-color: var(--overlays-shadow-headi);
+}
+.footers-coperite {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #E7E9FC;
+    letter-spacing: 0.02em;
+}
+.logo-footer {
+    color: #F4F4FD;
+}
+.meniu-filters-btn {
+    font-family: inherit;
+    color: var(--primary-brand-color);
+    background: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.meniu-filters-btn:hover,
+.meniu-filters-btn:focus {
+    color: var(--primary-white-color);
+    background-color: var(--primary-brand-color);
+}
+.project-header {
+    color: var(--overlays-shadow-headi);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.project-paragaph {
+    color: var(--accent-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
