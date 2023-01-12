@@ -60,9 +60,6 @@ button {
     overflow: hidden;
 }
 /* -----------HEADER-------------- */
-.header .container{
-    border-bottom: 1px solid rgba(46, 47, 66, 0.4);;
-}
 .header-wrap {
     display: flex;
     align-items: center;
@@ -294,6 +291,9 @@ button {
 /* .meniu-filters {
 
 } */
+.header-portfolio {
+    border-bottom: 1px solid rgba(46, 47, 66, 0.4);;
+}
 .meniu-filters-item {
     display: flex;
     justify-content: center;
