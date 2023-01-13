@@ -60,12 +60,13 @@ button {
     overflow: hidden;
 }
 /* -----------HEADER-------------- */
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .header-wrap {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-
 }
 .navigation {
     display: flex;
@@ -128,11 +129,10 @@ button {
 /* --------------HERO--------- */
 .hero {
     background:  var(--overlays-shadow-headi);
+    padding: 188px 0px 48px;
 }
 .hero-wrap {
-    padding: 188px 0px 48px;
     text-align: center;
-    
 }
 .hero-title {
     color: var(--primary-white-color);
@@ -141,7 +141,7 @@ button {
     letter-spacing: 0.02em;
 
     text-align: center;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -195,7 +195,7 @@ button {
 }
 /* -------------Section 3----------- */
 .work-section {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 .work-title {
     color: var(--overlays-shadow-headi);
@@ -205,7 +205,7 @@ button {
     text-transform: capitalize;
     text-align: center;
 
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .work-item-wrap {
     display: flex;
@@ -222,6 +222,7 @@ button {
 /* -------------Section 4----------- */
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0 120px 0;
 }
 .team-title {
     text-align: center;
@@ -231,14 +232,15 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 
-    padding-top: 120px;
     padding-bottom: 72px;
 }
 .team-cadrs {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-bottom: 120px;
+}
+.cards-content {
+    padding: 32px 16px 32px 16px;
 }
 .team-items {
     flex-basis: calc((100% - 72) / 4);
@@ -253,7 +255,6 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-top: 32px;
     margin-bottom: 8px;
 
     
@@ -264,24 +265,23 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 32px;
 }
 /* -------------Basement----------- */
 .footers {
     background-color: var(--overlays-shadow-headi);
-    
-}
-.footers-wrap {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+/* .footers-wrap {
+    
+} */
 .footers-coperite {
     font-size: 16px;
     line-height: 1.5;
     color: #E7E9FC;
     letter-spacing: 0.02em;
 
-    padding-top: 16px;
+    margin-top: 16px;
     max-width: 264px;
 }
 .logo-footer {
@@ -319,25 +319,22 @@ button {
     background-color: var(--primary-brand-color);
 }
 /* -------------Project Cards----------- */
-/* .project {
-
-} */
+.project {
+    padding-bottom: 120px;
+}
 .project-item {
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    padding-bottom: 120px;
 }
 .project-items {
     flex-basis: calc((100% - 48px) / 3);
 }
-.project-items {
+.project-items-content {
     border: 1px solid #E7E9FC;
-    padding-bottom: 32px;
-}
-.project-items .text {
-    padding-left: 16px;
+    border-top: 0;
+    padding: 32px 0 32px 16px;
 }
 .project-header {
     color: var(--overlays-shadow-headi);
@@ -347,7 +344,6 @@ button {
     letter-spacing: 0.02em;
 
     margin-bottom: 8px;
-    margin-top: 32px;
 }
 .project-paragaph {
     color: var(--accent-text-color);
