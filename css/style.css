@@ -80,7 +80,6 @@ button {
     line-height: 1.33;
     text-transform: uppercase;
     
-    margin-right: 76px;
     margin-left: 0px;
 }
 .logo-web {
@@ -90,6 +89,7 @@ button {
     display: flex;
     align-items: center;
     gap: 40px;
+    margin-left: 76px;
 }
 .navigation-item 
 .link {
@@ -129,7 +129,7 @@ button {
 /* --------------HERO--------- */
 .hero {
     background:  var(--overlays-shadow-headi);
-    padding: 188px 0px 48px;
+    padding: 188px 0;
 }
 .hero-wrap {
     text-align: center;
@@ -156,7 +156,6 @@ button {
     letter-spacing: 0.04em;
     cursor: pointer;
 
-    margin-bottom: 188px;
     padding: 16px 32px;
     min-width: 169px;
     min-height: 56px;
@@ -232,7 +231,7 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .team-cadrs {
     display: flex;
@@ -256,8 +255,6 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 8px;
-
-    
 }
 .team-description {
     color: var(--accent-text-color);
@@ -297,11 +294,10 @@ button {
 .meniu-filters-item {
     display: flex;
     justify-content: center;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .meniu-filters-items:not(:last-child) {
-    padding-right: 24px;
+    margin-right: 24px;
 }
 .meniu-filters-btn {
     font-family: inherit;
@@ -320,7 +316,7 @@ button {
 }
 /* -------------Project Cards----------- */
 .project {
-    padding-bottom: 120px;
+    padding: 96px 0 120px;
 }
 .project-item {
     display: flex;
