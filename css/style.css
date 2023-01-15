@@ -174,7 +174,7 @@ button {
     gap: 24px;
 }
 .qualities-list {
-    flex-basis: calc((100% - 72) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .qualities-title {
     color: var(--overlays-shadow-headi);
